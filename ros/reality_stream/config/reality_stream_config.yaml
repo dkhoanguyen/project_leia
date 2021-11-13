@@ -1,0 +1,13 @@
+num_cam: 2
+cam_1:
+  sub_path: 
+    - "/camera/depth/image_rect_raw"
+  pub_path:
+    - "cam_1/depth/image_lower"
+    - "cam_1/depth/image_upper"
+cam_2:
+  sub_path: 
+    - "/camera/depth/image_rect_raw"
+  pub_path:
+    - "cam_2/depth/image_lower"
+    - "cam_2/depth/image_upper"

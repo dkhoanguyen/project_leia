@@ -1,0 +1,7 @@
+<launch>
+
+  <node pkg="reality_stream" type="reality_stream" name="reality_stream_node" output="screen">
+    <rosparam file="$(find reality_stream)/config/reality_stream_config.yaml" />
+  </node>
+
+</launch>
